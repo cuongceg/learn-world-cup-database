@@ -61,3 +61,4 @@ chmod +x queries.sh
 ./queries.sh
 ./queries.sh
 ./queries.sh
+pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sq
